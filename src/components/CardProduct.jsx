@@ -20,7 +20,7 @@ function CardProduct({products}){
                 <CardInfo key={product.id}>   
                     <CardName>{product.name}</CardName>
                     <CardPrice>R${product.price}</CardPrice>
-                    <Button adicionado={isInCart} onClick={() => handleCart(product)}> {isInCart ? "Remover do carrinho" : "Adicionar ao carrinho"} </Button>
+                    <Button $adicionado={isInCart} onClick={() => handleCart(product)}> {isInCart ? "No carrinho" : "Adicionar ao carrinho"} </Button>
                 </CardInfo> 
             )})}
         </Card>

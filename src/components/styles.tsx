@@ -29,8 +29,8 @@ export const CardPrice = styled.p`
     align-items: center;
 `;
 
-export const Button = styled.button<{adicionado: boolean}>`
-    background: ${({adicionado}) => (adicionado ? "#6c757d" : "#198754")};
+export const Button = styled.button<{$adicionado: boolean}>`
+    background: ${({$adicionado}) => ($adicionado ? "#198754" : "#6c757d")};
     border: 1px solid #ccc; 
     border-radius: 10px;
     color: #d6ab9d;   
